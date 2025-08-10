@@ -1,0 +1,358 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   BlockHope: Trade Crypto. Fund Dreams. Grow Together
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-Black text-white-900 min-h-screen flex flex-col">
+  <!-- Header / Navbar -->
+  <header class="w-full border-b border-white-200">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+    <a class="flex items-center space-x-2" href="#">
+     <img alt="blockhope  logo yellow R letter on white background" class="w-8 h-8" height="32" src="https://storage.googleapis.com/a1aa/image/f43678fd-9184-46d4-322b-47fce59a2467.jpg" width="32"/>
+     <span class="font-bold text-xl text-yellow-600">
+      blockhope 
+     </span>
+    </a>
+    <nav class="hidden md:flex space-x-8 font-semibold text-white-700">
+     <a class="hover:text-yellow-600 transition" href="#">
+      market
+     </a>
+     <a class="hover:text-yellow-600 transition" href="#">
+      Trade
+     </a>
+     <a class="hover:text-yellow-600 transition" href="#">
+      Buy Crypto
+     </a>
+     <a class="hover:text-yellow-600 transition" href="#">
+      Future
+     </a>
+    </nav>
+    <div class="hidden md:flex items-center space-x-4">
+     <button class="text-yellow-600 font-semibold border border-yellow-600 rounded-full px-4 py-1.5 hover:bg-yellow-50 transition">
+      Sign up
+     </button>
+     <button class="text-white-700 font-semibold rounded-full px-4 py-1.5 hover:bg-white-100 transition">
+      Log in
+     </button>
+    </div>
+    <button aria-label="Open menu" class="md:hidden text-white-700 focus:outline-none focus:ring-2 focus:ring-yellow-600" id="mobile-menu-button">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <!-- Mobile menu -->
+   <nav aria-label="Mobile menu" class="md:hidden hidden border-t border-white-200 bg-white" id="mobile-menu">
+    <div class="px-4 pt-4 pb-6 space-y-4">
+     <a class="block font-semibold text-white-700 hover:text-yellow-600 transition" href="https://api2.binance.com">
+      Investing
+     </a>
+     <a class="block font-semibold text-white-700 hover:text-yellow-600 transition" href="https://api.binance.com/api/v3/exchangeInfo?permissions=SPOT"">
+      Buy Crypto
+     </a>
+     <a class="block font-semibold text-white-700 hover:text-yellow-600 transition" href="#">
+      market
+     </a>
+     <a class="block font-semibold text-white-700 hover:text-yellow-600 transition" href="#">
+     Trade
+     </a>
+     <button class="w-full text-yellow-600 font-semibold border border-yellow-600 rounded-full px-4 py-2 hover:bg-yellow-50 transition">
+      Sign up
+     </button>
+     <button class="w-full text-white-700 font-semibold rounded-full px-4 py-2 hover:bg-white-100 transition">
+      Log in
+     </button>
+    </div>
+   </nav>
+  </header>
+  <!-- Hero Section -->
+  <main class="flex-grow">
+   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-20 flex flex-col-reverse lg:flex-row items-center lg:items-start gap-12">
+    <div class="lg:w-1/2 max-w-lg text-center lg:text-left">
+     <h1 class="text-4xl sm:text-5xl font-extrabold text-white-900 leading-tight">
+      Invest in , crypto, and cash all in one place.
+     </h1>
+     <p class="mt-6 text-lg text-white-700">
+      Join millions of people who invest with blockhope . Commission-free trading, no account minimums, and a simple, intuitive app.
+     </p>
+     <div class="mt-8 flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-4">
+      <button class="bg-yellow-600 text-white font-semibold rounded-full px-8 py-3 hover:bg-yellow-700 transition">
+       Sign up
+      </button>
+      <button class="border border-yellow-600 text-yellow-600 font-semibold rounded-full px-8 py-3 hover:bg-yellow-50 transition">
+       Learn more
+      </button>
+     </div>
+     <p class="mt-6 text-sm text-white-500 max-w-md mx-auto lg:mx-0">
+      Investing involves risk, including the possible loss of principal.
+     </p>
+    </div>
+    <div class="lg:w-1/2 max-w-lg">
+     <img alt="Mobile phone showing blockhope  app interface with  crypto prices on screen" class="w-full rounded-xl shadow-lg" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/9d7fc023-15ba-4e4b-b198-b355a7a8d012.jpg" width="600"/>
+    </div>
+   </section>
+   <!-- Features Section -->
+   <section class="bg-white-50 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+     <h2 class="text-3xl font-extrabold text-white-900 text-center mb-12">
+      Why blockhope ?
+     </h2>
+     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 max-w-6xl mx-auto">
+      <div class="flex flex-col items-center text-center space-y-4 px-4">
+       <img alt="Icon of dollar sign representing commission-free trading" class="w-16 h-16" height="64" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0a9b4b73-22d5-4258-468f-c37083b1e900.jpg" width="64"/>
+       <h3 class="text-xl font-semibold text-white-900">
+        Commission-Free Trading
+       </h3>
+       <p class="text-white-600">
+        Buy and sell , options, and crypto without paying commissions or fees.
+       </p>
+      </div>
+      <div class="flex flex-col items-center text-center space-y-4 px-4">
+       <img alt="Icon of smartphone representing easy-to-use mobile app" class="w-16 h-16" height="64" loading="lazy" src="https://storage.googleapis.com/a1aa/image/7bb31d84-2a2e-43f4-9a2b-afe43e469de2.jpg" width="64"/>
+       <h3 class="text-xl font-semibold text-white-900">
+        Easy-to-Use App
+       </h3>
+       <p class="text-white-600">
+        Manage your investments anytime, anywhere with our intuitive mobile app.
+       </p>
+      </div>
+      <div class="flex flex-col items-center text-center space-y-4 px-4">
+       <img alt="Icon of lock representing secure and trusted platform" class="w-16 h-16" height="64" loading="lazy" src="https://storage.googleapis.com/a1aa/image/decc0372-be59-4fb3-bd68-825a8aace393.jpg" width="64"/>
+       <h3 class="text-xl font-semibold text-white-900">
+        Secure &amp; Trusted
+       </h3>
+       <p class="text-white-600">
+        Your data and money are protected with industry-leading security measures.
+       </p>
+      </div>
+      <div class="flex flex-col items-center text-center space-y-4 px-4">
+       <img alt="Icon of upward trending graph representing real-time market data" class="w-16 h-16" height="64" loading="lazy" src="https://storage.googleapis.com/a1aa/image/c749a383-35a0-4d1d-b515-3f7d7284d9c6.jpg" width="64"/>
+       <h3 class="text-xl font-semibold text-white-900">
+        Real-Time Market Data
+       </h3>
+       <p class="text-white-600">
+        Stay informed with up-to-the-minute market prices and news.
+       </p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <!--  & Crypto Preview Section -->
+   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <h2 class="text-3xl font-extrabold text-white-900 text-center mb-12">
+     Track  &amp; Crypto
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+     <!-- Stock Card 1 -->
+     <div class="border border-white-200 rounded-xl p-6 shadow-sm hover:shadow-md transition cursor-pointer">
+      <div class="flex items-center justify-between mb-4">
+       <div class="flex items-center space-x-3">
+        <img alt="Apple Inc. logo with white apple icon on black background" class="w-10 h-10 rounded-full" height="40" loading="lazy" src="https://storage.googleapis.com/a1aa/image/45590d97-0fb0-4c30-2773-177cbb544eaf.jpg" width="40"/>
+        <div>
+         <h3 class="font-semibold text-white-900">
+          Apple Inc.
+         </h3>
+         <p class="text-sm text-white-500">
+          AAPL
+         </p>
+        </div>
+       </div>
+       <div class="text-yellow-600 font-semibold text-lg">
+        +1.25%
+       </div>
+      </div>
+      <div class="text-2xl font-bold text-white-900">
+       $172.15
+      </div>
+      <div class="mt-2 text-sm text-white-500">
+       Today
+      </div>
+     </div>
+     <!-- Stock Card 2 -->
+     <div class="border border-white-200 rounded-xl p-6 shadow-sm hover:shadow-md transition cursor-pointer">
+      <div class="flex items-center justify-between mb-4">
+       <div class="flex items-center space-x-3">
+        <img alt="Tesla Inc. logo with stylized T letter in red on white background" class="w-10 h-10 rounded-full" height="40" loading="lazy" src="https://storage.googleapis.com/a1aa/image/0f845282-4da9-4b51-edc9-95f53a9dce5f.jpg" width="40"/>
+        <div>
+         <h3 class="font-semibold text-white-900">
+          Tesla Inc.
+         </h3>
+         <p class="text-sm text-white-500">
+          TSLA
+         </p>
+        </div>
+       </div>
+       <div class="text-red-600 font-semibold text-lg">
+        -0.85%
+       </div>
+      </div>
+      <div class="text-2xl font-bold text-white-900">
+       $688.99
+      </div>
+      <div class="mt-2 text-sm text-white-500">
+       Today
+      </div>
+     </div>
+     <!-- Crypto Card 1 -->
+     <div class="border border-white-200 rounded-xl p-6 shadow-sm hover:shadow-md transition cursor-pointer">
+      <div class="flex items-center justify-between mb-4">
+       <div class="flex items-center space-x-3">
+        <img alt="Bitcoin logo with orange circle and white B letter" class="w-10 h-10 rounded-full" height="40" loading="lazy" src="https://storage.googleapis.com/a1aa/image/56ad9df8-329f-4a75-a7a0-b851f3790de2.jpg" width="40"/>
+        <div>
+         <h3 class="font-semibold text-white-900">
+          Bitcoin
+         </h3>
+         <p class="text-sm text-white-500">
+          BTC
+         </p>
+        </div>
+       </div>
+       <div class="text-yellow-600 font-semibold text-lg">
+        +3.12%
+       </div>
+      </div>
+      <div class="text-2xl font-bold text-white-900">
+       $29,850.00
+      </div>
+      <div class="mt-2 text-sm text-white-500">
+       Today
+      </div>
+     </div>
+     <!-- Crypto Card 2 -->
+     <div class="border border-white-200 rounded-xl p-6 shadow-sm hover:shadow-md transition cursor-pointer">
+      <div class="flex items-center justify-between mb-4">
+       <div class="flex items-center space-x-3">
+        <img alt="Ethereum logo with white diamond shape on white background" class="w-10 h-10 rounded-full" height="40" loading="lazy" src="https://storage.googleapis.com/a1aa/image/dda4eaf4-6480-48e6-754f-cda96b4db963.jpg" width="40"/>
+        <div>
+         <h3 class="font-semibold text-white-900">
+          Ethereum
+         </h3>
+         <p class="text-sm text-white-500">
+          ETH
+         </p>
+        </div>
+       </div>
+       <div class="text-red-600 font-semibold text-lg">
+        -1.45%
+       </div>
+      </div>
+      <div class="text-2xl font-bold text-white-900">
+       $1,950.50
+      </div>
+      <div class="mt-2 text-sm text-white-500">
+       Today
+      </div>
+     </div>
+    </div>
+   </section>
+   <!-- Learn More Section -->
+   <section class="bg-yellow-50 py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center gap-12">
+     <div class="lg:w-1/2 max-w-lg text-center lg:text-left">
+      <h2 class="text-3xl font-extrabold text-yellow-700 mb-6">
+       Learn to invest with confidence
+      </h2>
+      <p class="text-yellow-900 text-lg mb-8">
+       Access educational resources, expert insights, and market news to help you make smarter investment decisions.
+      </p>
+      <button class="bg-yellow-600 text-white font-semibold rounded-full px-8 py-3 hover:bg-yellow-700 transition">
+       Explore Learning
+      </button>
+     </div>
+     <div class="lg:w-1/2 max-w-lg">
+      <img alt="Illustration of a person reading investment learning resources and market news on a laptop" class="w-full rounded-xl shadow-lg" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/2e550d17-7d5e-42c2-5279-9afb7f7d13e0.jpg" width="600"/>
+     </div>
+    </div>
+   </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-white-100 border-t border-white-200">
+   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 sm:grid-cols-3 gap-8">
+    <div>
+     <h3 class="text-white-900 font-semibold mb-4">
+      blockhope 
+     </h3>
+     <p class="text-white-600 max-w-xs">
+      Commission-free investing, plus the tools you need to put your money in motion. Sign up and get your first bonusfree.
+     </p>
+    </div>
+    <div>
+     <h3 class="text-white-900 font-semibold mb-4">
+      Company
+     </h3>
+     <ul class="space-y-2 text-white-600">
+      <li>
+       <a class="hover:text-yellow-600 transition" href="#">
+        About
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-600 transition" href="#">
+        Careers
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-600 transition" href="#">
+        Press
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-600 transition" href="#">
+        Blog
+       </a>
+      </li>
+     </ul>
+    </div>
+    <div>
+     <h3 class="text-white-900 font-semibold mb-4">
+      Support
+     </h3>
+     <ul class="space-y-2 text-white-600">
+      <li>
+       <a class="hover:text-yellow-600 transition" href="#">
+        Help Center
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-600 transition" href="#">
+        Contact Us
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-600 transition" href="#">
+        Security
+       </a>
+      </li>
+      <li>
+       <a class="hover:text-yellow-600 transition" href="#">
+        Legal
+       </a>
+      </li>
+     </ul>
+    </div>
+   </div>
+   <div class="border-t border-white-200 mt-8 py-6 text-center text-white-500 text-sm">
+    © 2024 blockhope . All rights reserved.
+   </div>
+  </footer>
+  <script>
+   const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    mobileMenuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
